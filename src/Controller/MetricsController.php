@@ -9,14 +9,14 @@ use Symfony\Component\HttpFoundation\Response;
 class MetricsController extends AbstractController
 {
     public function __construct(
-        private readonly MetricsService $metricsService
+        private readonly MetricsService $metricsService,
     ) {
     }
 
     /**
      * Render metrics collected by the application.
      *
-     * @return response
+     * @return Response
      *   HTTP response to send back to the client
      */
     public function metrics(): Response
