@@ -15,6 +15,7 @@ See [keep a changelog](https://keepachangelog.com/en/1.0.0/) for information abo
 - Required Symfony 6.1 packages in composer.json
 - Fixed return types
 - Upgrade code style to bette match PHP 8.x
+- Updated GitHub workflow images
 
 ## [0.0.1] - 2021-19-10
 
